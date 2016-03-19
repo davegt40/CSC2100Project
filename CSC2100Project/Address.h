@@ -6,6 +6,7 @@ class Address
 {
 public:
 	Address();
+	Address(string, string, string, string, string);
 	~Address();
 
 	string mailingStreet;

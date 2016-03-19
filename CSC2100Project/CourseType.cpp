@@ -1,5 +1,6 @@
 #include "CourseType.h"
 #include "StudentType.h"
+#include "InstructorType.h"
 #include <iostream>
 #include <string>
 using namespace std;
@@ -8,7 +9,7 @@ CourseType::CourseType()
 {
 }
 
-CourseType::CourseType(string, int, int)
+CourseType::CourseType(string, int, int, InstructorType)
 {
 }
 

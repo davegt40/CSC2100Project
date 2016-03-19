@@ -1,5 +1,6 @@
 #pragma once
 #include "PersonType.h"
+#include "CourseType.h"
 #include <iostream>
 #include <string>
 using namespace std;
@@ -25,7 +26,7 @@ private:
 	int numberOfCourses;
 	bool isTuitionPaid;
 	int yearGraduate;
-	// coursesEnrolled placeholder
-	// coursesGrades placeholder
+	CourseType *coursesEnrolled;
+	char *coursesGrade;
 };
 

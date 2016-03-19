@@ -1,4 +1,5 @@
 #include "StudentType.h"
+#include "CourseType.h"
 #include <iostream>
 #include <string>
 using namespace std;

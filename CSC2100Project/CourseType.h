@@ -1,5 +1,6 @@
 #pragma once
 #include "StudentType.h"
+#include "InstructorType.h"
 #include <iostream>
 #include <string>
 using namespace std;
@@ -8,7 +9,7 @@ class CourseType
 {
 public:
 	CourseType();
-	CourseType(string, int, int);
+	CourseType(string, int, int, InstructorType);
 	~CourseType();
 
 	void setCourseInfo();
@@ -22,6 +23,6 @@ private:
 	int courseNumber;
 	int courseCredits;
 	StudentType *studentList;
-	// Instructor Placeholder
+	InstructorType instructor;
 };
 

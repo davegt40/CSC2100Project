@@ -7,6 +7,10 @@ Address::Address()
 {
 }
 
+Address::Address(string, string, string, string, string)
+{
+}
+
 Address::~Address()
 {
 }
