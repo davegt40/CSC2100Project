@@ -8,7 +8,8 @@ class PersonType
 {
 public:
 	PersonType();
-	PersonType(string, string, char, int, string, string, string, string, string, double, double);
+	PersonType(string, string, char, int, string, double, double,
+							string, string, string, string, string);
 	~PersonType();
 
 	virtual void print() const;

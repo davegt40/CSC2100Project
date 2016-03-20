@@ -13,17 +13,24 @@ PersonType::PersonType()
 	phoneNumber = "";
 	weight = 0.0;
 	height = 0.0;
-	address.mailingStreet = "";
-	address.city = "";
-	address.state = "";
-	address.postalCode = "";
-	address.country = "";
 }
 
-PersonType::PersonType(string, string, char, int, string, string, string, string, string, double, double)
+PersonType::PersonType(string first, string last, char g, int a, string ph, double wgt, double hgt,
+												string str, string c, string st, string pc, string coun)
 {
+	firstName = first;
+	lastName = last;
+	gender = g;
+	age = a;
+	phoneNumber = ph;
+	weight = wgt;
+	height = hgt;
+	address.mailingStreet = str;
+	address.city = c;
+	address.state = st;
+	address.postalCode = pc;
+	address.country = coun;
 }
-
 
 PersonType::~PersonType()
 {
